@@ -1,0 +1,11 @@
+Хранить БД в папке StreamingAssets с расширением .byte
+Пример считывания данных с SQL-бд смотри в скрипте SQLDB_EXAMPLE
+
+Для работы с БД SQLite используй расширение для Firefox SQLite Manager
+Если расширение не ставится через https://addons.mozilla.org/ru/firefox/addon/sqlite-manager/ 
+1) Устанавливаем Firefox с поддержкой редактирования конфига, например, версию 52 ESR
+https://download.mozilla.org/?product=firefox-esr-latest-ssl&os=win64&lang=ru
+2) Запускаем Firefox, в строке адреса вбивем "about:config"
+3) Находим поле xpinstall.signatures.required , меняем значение на false
+4) Устанавливаем расширение из файла
+https://github.com/lazierthanthou/sqlite-manager/releases/download/v0.8.3/sqlitemanager-0.8.3-all.xpi
